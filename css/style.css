@@ -1,0 +1,21 @@
+hr{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    background-color: #0000ff;
+}
+.main-bar{
+    background-color: #00CC00;
+}
+.side-bar{
+    background-color: #8677A7;
+    padding: 20px;
+}
+.separator{
+    margin: 10px 0;
+}
+.separator p{
+    padding: 5px;
+    margin: 0px;
+}
