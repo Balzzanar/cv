@@ -1,16 +1,21 @@
+/* GENERAL
+-------------------------------------------------- */
+body{
+    font-family: 'Roboto', sans-serif;
+}
 hr{
     padding: 0px;
     margin: 0px;
 }
+
+/* MAIN BAR
+-------------------------------------------------- */
 .container{
     background-color: #0000ff;
 }
 .main-bar{
     background-color: #00CC00;
-}
-.side-bar{
-    background-color: #8677A7;
-    padding: 20px;
+    word-wrap: break-word;
 }
 .separator{
     margin: 10px 0;
@@ -18,4 +23,26 @@ hr{
 .separator p{
     padding: 5px;
     margin: 0px;
+    font-weight: bold;
 }
+.expertise{
+    margin: 20px;
+/*    border: 1px solid red; */
+    text-align: center;
+    font-weight: bold;
+}
+
+/* SIDE BAR
+-------------------------------------------------- */
+.contact-info table tr:first-child td{
+    border: none;
+}
+.contact-info{
+    margin-top: 10px;
+}
+.side-bar{
+    background-color: #8677A7;
+    padding: 20px;
+}
+
+
